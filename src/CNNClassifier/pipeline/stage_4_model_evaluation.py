@@ -12,13 +12,14 @@ class EvaluationPipeline:
         eval_config = config.get_evaluation_config()
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
-        evaluation.log_into_mlflow()
+        evaluation.save_score()
+       # evaluation.log_into_mlflow() 
 
-if __name__ == "__main":
+if __name__ == "__main__":
     try:
         logger.info(f"***********")
         logger.info(f">>>>>>>>>>>stage {STAGE_NAME} started <<<<<<")
-        obj=EvaluationPipeline()
+        obj = EvaluationPipeline()
         obj.main()
         logger.info(f">>>>>>>>>. stage {STAGE_NAME} completed ")
     except Exception as e:

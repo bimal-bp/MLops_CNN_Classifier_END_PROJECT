@@ -16,3 +16,4 @@
 - Train Model
 - Model Evalution 
 - DagsHUb - Mlflow Experiments 
+- DVC 
