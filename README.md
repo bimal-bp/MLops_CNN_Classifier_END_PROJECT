@@ -1,6 +1,6 @@
 # MLops_CNN_Classifier_END_PROJECT
 
-# Modular Coding
+# MODULAR CODING 
 - 1.config.yaml
 - 2.params .yaml
 - 3.entity
@@ -9,3 +9,10 @@
 - 6.pipeline
 - 7.main.py
 - 8.dvc.yaml
+
+# MODEL WORK
+- Complete DataIngestion
+- Complete BaseModel
+- Train Model
+- Model Evalution 
+- DagsHUb - Mlflow Experiments 
